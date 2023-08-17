@@ -1,1 +1,61 @@
+.container
+{
+   border: 2px solid blue;
+   justify-content: center;
+   display: flex;
+   height: 60vh; 
+   margin-left: 40%;
+   margin-right: 40%; 
+  
+}
 
+.calculatorButtons
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+    justify-content: center;
+    gap: 5px; 
+    padding: 4%; 
+    width: 247px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Aldrich';
+    font-size: 3em;
+}
+button
+{
+    font-size: 1.5em;
+    font-family: 'Abel';
+    cursor: pointer; 
+}
+.calculator__display
+{
+    
+    font-size: 2em; 
+
+    width: 270px; 
+    
+}
+.history
+{
+    font-size: 1em;
+    border: 1px solid black;
+    padding: 5%; 
+    font-family: 'Abel';
+    font-weight: bold;
+   
+
+}
+.result
+{
+    padding: 5%; 
+    font-size: 1em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'Abel';
+    font-weight: bold; 
+}
