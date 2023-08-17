@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Calculator</h1>
+    <div class="container"> <!--the entire project is within this container-->
+        <div class="calculator"> <!--All calculator items are within this container-->
+          <div class="calculator__display">0</div>  <!--By default the screen will show 0-->
+          <div class="history">Entered number</div>
+          <div class="result">Result</div>
+    
+          <div class="calculatorButtons"> <!--All calculator buttons are within this class.-->
+            <!--Any attribute on any element whose attribute name starts with data- is a data attribute.-->
+            <button class="key--operator" data-action="add">+</button>
+            <button class="key--operator" data-action="subtract"> - </button>
+            <button class="key--operator" data-action="multiply"> &times; </button>
+            <button class="key--operator" data-action="divide">÷</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button data-action="decimal">.</button>
+            <button data-action="clear">AC</button>
+            <button class="key--equal" data-action="equal">=</button>
+          </div>
+        </div>
+      </div>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
 
